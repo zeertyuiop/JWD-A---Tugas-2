@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+    font-family: sans-serif;
+}
+header, nav, #article-container {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    border-bottom: 3px solid rgb(132, 121, 121);
+    
+}
+header {
+    margin-top: 10px;
+}
+
+section, #bio-container {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+}
+
+header img {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+header h1{
+    padding: 30px;
+    font-weight: 350;
+    font-size: 44px;
+    
+}
+.fixed-element {
+    clear: both;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(98, 98, 241);
+    font-size: large;
+
+}
+nav #left-top-menu {
+    float: left;
+    margin-left: 20px;
+}
+nav #right-top-menu {
+    float: right;
+    text-align: right;
+    margin-right: 45px;
+}
+nav {
+    padding: 20px 0;
+    padding-bottom: 35px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+section article {
+    width: 285px;
+    float: left;
+    margin-left: 35px;
+
+}
+section article p {
+    margin-top: 40px;
+    text-align: justify;
+}
+section article button{
+    display: block;
+    margin: 15px auto;
+}
+#bio-container img{
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 35px;
+    float: left;
+}
+#bio-info { 
+    width: 805px;
+    float: left;
+}
+#bio-info h3 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#bio-info p{
+    text-align: justify;
+    margin-left: 20px;
+}
+#bio-info .text-right{
+    text-align: right;
+    margin-left: 20px;
+    border-bottom: 2px solid rgb(132, 121, 121);
+}
+#bio-info ul li {
+    margin-right: 10px;
+    text-align: right;
+    padding: 0;
+    list-style: circle;
+    list-style-position: inside;
+    margin-right: 0px;
+    
+}
+#bio-info ul {
+    float: right;
+    text-align: right;
+    margin-bottom: 2px;
+    
+     
+    
+}
+#bio-container {
+    margin-bottom: 5px;
+}
